@@ -1,0 +1,8 @@
+tensorflow>=2.10.0
+matplotlib>=3.5.0
+numpy>=1.20.0
+
+
+#   .\venv\Scripts\Activate.ps1
+#    .\venv\Scripts\pip install -r requirements.txt
+#         .\venv\Scripts\activate; python main.py

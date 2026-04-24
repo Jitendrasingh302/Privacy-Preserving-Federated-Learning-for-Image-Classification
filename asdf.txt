@@ -1,0 +1,12 @@
+Yes, absolutely! The `tf.keras.datasets.cifar10.load_data()` function we are using automatically downloads the dataset the very first time you run the script. 
+
+However, if you want to download the data manually (for example, if you have a slow connection or want to run offline), you can do so by following these steps:
+
+1. Download the CIFAR-10 python version dataset tarball from here: [https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
+2. In your home directory, locate your Keras datasets folder. On Windows, this is usually at `C:\Users\<YourUsername>\.keras\datasets\`. (If the folders don't exist, you can create them).
+3. Place the `cifar-10-python.tar.gz` file into that folder. (Do not extract it, just put the downloaded `.tar.gz` file there). 
+4. Rename `cifar-10-python.tar.gz` to `cifar-10-batches-py.tar.gz`.
+
+The next time you run `python main_cifar.py`, Keras will automatically detect the file in that directory, verify its checksum, and extract it instantly without trying to download anything from the internet!
+
+Alternatively, if you'd like me to build a custom data loader that reads the CIFAR-10 files directly from a designated folder in this project space (like `d:\coding\RAI\project\data\cifar10`), I can easily do that too! Just let me know.
