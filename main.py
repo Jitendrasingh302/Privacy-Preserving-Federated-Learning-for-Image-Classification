@@ -1,3 +1,5 @@
+#this main file for traing of cnn model on mnist dataset from tensorflow
+
 import argparse
 from data.load_data import load_mnist
 from data.client_split import split_data_into_clients, prepare_central_test_data
